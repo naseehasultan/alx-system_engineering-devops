@@ -1,9 +1,0 @@
-#!/bin/bash
-# Find all .gif files, including hidden files
-find . -type f -iname "*.gif" | \
-# Remove the .gif extension from the file names
-sed 's/\.gif$//' | \
-# Sort by byte values, but case-insensitive
-sort -f | \
-# Print one file name per line
-sed 's/^\.\///'
