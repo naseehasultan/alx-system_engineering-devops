@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n '$p' iacta >> iacta
+awk 'END {print}' iacta >> iacta
