@@ -1,2 +1,3 @@
 #!/bin/bash
-BEST=School; echo "The value of BEST is $BEST"
+BEST="School" 
+echo "Variable BEST has been created with the value $BEST."
