@@ -1,0 +1,2 @@
+#!/bin/bash
+result=$(echo "$WATER + $STIR" | tr 'a-y' 'p-za-o'); echo "$result"
